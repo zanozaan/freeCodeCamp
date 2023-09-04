@@ -1,0 +1,56 @@
+* {
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  text-align: center;
+  background-color: #666;
+  margin: 2%;
+}
+
+.title {
+  padding: 20px;
+  font-size: large;
+}
+
+img {
+  max-width: 100%;
+  width: 800px;
+  display: block;
+}
+
+figure {
+  align-items: center;
+  display: flex;
+}
+
+#img-div,
+figcaption {
+  margin: auto 50px;
+  padding: 20px;
+  background-color: whitesmoke;
+  align-items: center;
+}
+
+.content {
+  padding: 40px;
+  text-align: left;
+  width: 500px;
+  margin: auto;
+  letter-spacing: 1px;
+  line-height: 2;
+}
+
+#quote,
+caption {
+  font-size: 15px;
+  font-style: italic;
+}
+
+#footer {
+  font-weight: bold;
+  padding-bottom: 30px;
+}

@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+section {
+  margin-top: 40px;
+}
+
+#navbar {
+  background-color: #fff;
+  width: 100%;
+  border-bottom: 1px solid black;
+}
+
+#navbar li {
+  color: black;
+  border-top: 1px solid black;
+  list-style: none;
+}
+
+#navbar a {
+  display: block;
+  padding: 10px 30px;
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 20;
+  transition: text-indent 0.3s ease-in-out;
+  -webkit-transition: text-indent 0.3s ease-in-out;
+  -moz-transition: text-indent 0.3s ease-in-out;
+  -ms-transition: text-indent 0.3s ease-in-out;
+  -o-transition: text-indent 0.3s ease-in-out;
+}
+
+#navbar a:hover {
+  font-weight: 500;
+  text-indent: 5px;
+}
+
+p {
+  margin: 20px;
+}
+
+.list-box {
+  margin: 60px;
+}
+
+ol {
+  margin-left: 30px;
+}
+
+.main-section {
+  border-bottom: 1px solid grey;
+}
+
+header {
+  color: black;
+  margin: 10px;
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: 800;
+}
+
+code {
+  display: block;
+  text-align: left;
+  background-color: #999;
+  white-space: pre;
+  word-break: normal;
+  word-wrap: normal;
+  line-height: 1.5;
+  padding: 0 15px;
+  margin: 10px;
+}
+
+@media only screen and (min-width: 800px) {
+  body {
+    flex-direction: row;
+  }
+
+  #navbar {
+    width: 300px;
+    height: 100%;
+    position: fixed;
+    left: 0;
+  }
+
+  #main-doc {
+    margin: 0 auto;
+    margin-left: 25%;
+  }
+}
